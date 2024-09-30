@@ -1,8 +1,11 @@
 def merge(nums1, m, nums2, n):
-    i = m - 1  # last element in the in the first part of nums1
-    j = n - 1  # last element of nums2
-    k = m + n - 1  #last index of nums1 which has length of m+n
 
+    i = m - 1  # last element in the in the first part of nums1
+    
+    j = n - 1  # last element of nums2
+    
+    k = m + n - 1  #last index of nums1 which has length of m+n
+    
     # to merge in reverse order 
     while i>= 0 and j>=0:
         if nums1[i]>nums2[j]:
