@@ -1,4 +1,5 @@
 
+ 
 def merge(nums1, m, nums2, n):
 
     i = m - 1  # last element in the in the first part of nums1
@@ -28,7 +29,7 @@ nums2=[2,3,6]
 n=3
 
 merge(nums1,m,nums2,n)
-print(nums1)
+print(nums1)  #[1,2,3,3,4,6]
 
 
 # The solution merges two sorted arrays starting from the end of nums1 and nums2, comparing elements, and placing the larger element at the end of nums1.
